@@ -11,6 +11,7 @@ interface MyProgressBarProps {
   progress: number; // Define the type of the 'progress' prop
 }
 
+//
 // Use the interface for the component's props
 const MyProgressBar: React.FC<MyProgressBarProps> = ({ progress }) => {
   const progressBarWidth = progress * 100; // Assuming progress is between 0 and 1
